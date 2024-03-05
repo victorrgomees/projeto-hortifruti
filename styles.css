@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff9100;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 5;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+section {
+    padding: 0px;
+    text-align: center;
+}
+
+footer {
+    background-color: #ff9100;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.produto {
+    display: inline-block;
+    margin: 10px;
+}
+
+.produto img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 2px solid #ff9100;
+}
+
+.produto p {
+    text-align: center;
+}
